@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "prog_homework1": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
