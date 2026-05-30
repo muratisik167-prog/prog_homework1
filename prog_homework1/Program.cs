@@ -51,10 +51,10 @@
                 }
                 Console.WriteLine("Çıkarmak istediğiniz ürünün numarasını giriniz ");
 
-                // TryParse ile kullanıcının harf veya sembol girerse programın çökmesini engelliyoruz
+                
                 if (int.TryParse(Console.ReadLine(), out int removeIndex) && removeIndex > 0 && removeIndex <= menu.Count)
                 {
-                    myOrder.RemoveProduct(menu[removeIndex - 1]); // kullanıcı 1 girerse 0. indexteki ürün eklenir
+                    myOrder.RemoveProduct(menu[removeIndex - 1]); 
                 }
                 else
                 {
