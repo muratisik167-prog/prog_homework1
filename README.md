@@ -1,10 +1,10 @@
 # Restoran Sipariş Otomasyon Sistemi
 
-Bu proje, Nesne Yönelimli Programlama (OOP) prensiplerinin gerçek hayat senaryosuna uyarlandığı bir C# konsol uygulamasıdır. Kullanıcıların (garsonların) menüden dinamik olarak ürün ekleyip çıkarabildiği, siparişin toplam fiyatını ve hazırlık süresini hesaplayarak detaylı bir adisyon (fiş) üreten bir sistemdir.
+Bu proje, üniversite **Programlama dersi kapsamında bir ödev** olarak geliştirilmiş, Nesne Yönelimli Programlama (OOP) prensiplerinin gerçek hayat senaryosuna uyarlandığı bir C# konsol uygulamasıdır. Kullanıcıların (garsonların) menüden dinamik olarak ürün ekleyip çıkarabildiği, siparişin toplam fiyatını ve hazırlık süresini hesaplayarak detaylı bir adisyon (fiş) üreten bir sistemdir.
 
 ## Projenin Amacı ve Öğrenim Çıktıları
 
-Bu uygulamanın temel amacı çalışan bir kod yazmanın ötesinde; temiz, genişletilebilir ve modüler bir yazılım mimarisi kurgulamaktır. Sistem tasarlanırken OOP'nin 4 temel taşı aktif olarak kullanılmıştır:
+Bir öğrenci projesi olarak tasarlanan bu uygulamanın temel amacı, sadece çalışan bir kod yazmanın ötesinde; temiz, genişletilebilir ve modüler bir yazılım mimarisi kurgulamaktır. Sistem tasarlanırken OOP'nin 4 temel taşı aktif olarak kullanılmıştır:
 
 * **Abstraction (Soyutlama):** Siparişin temel kurallarını belirleyen `IOrder` arayüzü (interface) ve ürünlerin iskeletini oluşturan `abstract Product` sınıfı kullanıldı.
 * **Inheritance (Kalıtım):** `Food` (Yemek), `Drink` (İçecek) ve `Dessert` (Tatlı) sınıfları temel `Product` sınıfından miras alınarak türetildi.
